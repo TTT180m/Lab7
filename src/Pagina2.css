@@ -1,0 +1,45 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    animation: fade-in 1s ease-in;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input_cont {
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    padding: 5px;
+    animation: rotate-in 1s linear infinite;
+    transform-origin: center;
+  }
+  
+  @keyframes rotate-in {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
